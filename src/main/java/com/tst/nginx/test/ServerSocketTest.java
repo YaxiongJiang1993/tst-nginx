@@ -22,9 +22,9 @@ public class ServerSocketTest {
 
     public static void main(String[] args) {
         ServerSocketTest test = new ServerSocketTest();
-        //test.testGetResource();
-        test.init();
-        test.start();
+        test.testGetResource();
+        /*test.init();
+        test.start();*/
     }
 
     private void init() {
